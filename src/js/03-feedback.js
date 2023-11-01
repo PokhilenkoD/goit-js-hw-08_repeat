@@ -29,5 +29,6 @@ function onClick(e) {
     infoObjekt.message = formEl.elements.message.value;
     infoObjekt.email = formEl.elements.email.value;
   }
+  console.log(infoObjekt);
   formEl.reset();
 }
